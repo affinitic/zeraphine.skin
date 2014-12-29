@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="'zeraphine et tapioka artisanat'">
+
+    <object name="zeraphine_theme_images"
+            meta_type="Filesystem Directory View"
+            directory="zeraphine.theme:skins/zeraphine_theme_images"/>
+
+    <skin-path name="'zeraphine et tapioka artisanat'"
+               based-on="Sunburst Theme">
+        <layer name="zeraphine_theme_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>
