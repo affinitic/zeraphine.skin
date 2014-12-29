@@ -1,20 +1,63 @@
 /*
 'zeraphine et tapioka artisanat' CSS BY AFFINITIC
 */
-
-#left-column{
-float:left;
-width:20%;
-margin-left:20px;
+body{
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-#main-column{
+#wrapper{
+width:1000px;
+min-height:600px;
+margin:auto;
+margin-top:5px;
+/*border-left:4px solid #f17a32;
+border-right:4px solid #f17a32;*/
+background-image:url(../images/fond.jpg);
+}
+
+
+#header-theme{
+background-image:url(../images/header.png);
+background-repeat:no-repeat;
+height:277px;
+}
+
+#portal-logo-theme{
+float:left;
+margin-left:42px;
+margin-top:10px;
+}
+
+#portal-siteactions-theme{
+float:left;
+}
+
+
+#personal-tools-theme{
 float:right;
-width:75%;
+}
+
+#left-column-theme{
+float:left;
+width:236px;
+margin-left:13px;
+background-color:rgba(82,77,76,0.5);
+}
+
+#main-column-theme{
+float:right;
+width:72%;
 margin-right:20px;
 }
 
-#main-column-large {
+#main-column-large-theme{
 float:none;
 width:95%;
 margin:auto;
