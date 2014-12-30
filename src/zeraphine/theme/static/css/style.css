@@ -37,6 +37,10 @@ margin-left:42px;
 margin-top:10px;
 }
 
+#portal-logo-theme img{
+border-radius:12px;
+}
+
 #portal-siteactions-theme{
 position:relative;
 top:8px;
@@ -89,7 +93,7 @@ z-index: 3;
 float:left;
 width:236px;
 margin-left:13px;
-background-color:rgba(82,77,76,0.5);
+background-color:rgba(82,77,76,0.6);
 }
 
 #main-column-theme{
