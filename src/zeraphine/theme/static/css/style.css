@@ -1,6 +1,10 @@
 /*
 'zeraphine et tapioka artisanat' CSS BY AFFINITIC
 */
+html, body{
+height:100%;
+}
+
 body{
 background: rgb(181,189,200); /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
@@ -17,10 +21,11 @@ width:1000px;
 min-height:600px;
 margin:auto;
 margin-top:10px;
-/*border-left:4px solid #f17a32;
-border-right:4px solid #f17a32;*/
+border:1px solid #888;
 background-image:url(../images/fond.jpg);
 border-radius: 25px;
+box-shadow:6px 6px 30px rgba(255,255,237,0.5),
+           -6px -6px 30px rgba(255,255,237,0.5);
 }
 
 
@@ -95,7 +100,9 @@ width:236px;
 margin-left:13px;
 background-color:rgba(82,77,76,0.6);
 }
-nav#left-column-theme dl.portlet.portletNavigationTree ul.navTree.navTreeLevel0 li a.state-published:link{
+
+nav#left-column-theme dl.portlet.portletNavigationTree ul.navTree.navTreeLevel0 li a.state-published:link,
+nav#left-column-theme dl.portlet.portletNavigationTree ul.navTree.navTreeLevel0 li a.state-published:visited{
 color:#ddd !important;
 }
 
@@ -105,6 +112,19 @@ color:#fff !important;
 
 nav#left-column-theme li a.contenttype-folder {
 background-image:none ;
+}
+
+nav#left-column-theme dl.portlet ul.navTreeLevel0 > .navTreeItem {
+border-bottom:0.1em dotted #999;
+line-height:2em;
+padding:0.25em 1em;
+}
+
+nav#left-column-theme dl.portlet ul.navTree .navTreeCurrentItem {
+background-color:rgba(200,0,0,0.3);
+border-left:1em solid rgba(180,0,0,0.3);
+margin-left:-1em;
+margin-right:-1em;
 }
 
 
