@@ -95,6 +95,18 @@ width:236px;
 margin-left:13px;
 background-color:rgba(82,77,76,0.6);
 }
+nav#left-column-theme dl.portlet.portletNavigationTree ul.navTree.navTreeLevel0 li a.state-published:link{
+color:#ddd !important;
+}
+
+nav#left-column-theme dl.portlet.portletNavigationTree ul.navTree.navTreeLevel0 li a.state-published:hover{
+color:#fff !important;
+}
+
+nav#left-column-theme li a.contenttype-folder {
+background-image:none ;
+}
+
 
 #main-column-theme{
 float:right;
