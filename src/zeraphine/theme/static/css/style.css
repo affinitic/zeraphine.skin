@@ -16,10 +16,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 width:1000px;
 min-height:600px;
 margin:auto;
-margin-top:5px;
+margin-top:10px;
 /*border-left:4px solid #f17a32;
 border-right:4px solid #f17a32;*/
 background-image:url(../images/fond.jpg);
+border-radius: 25px;
 }
 
 
@@ -27,6 +28,7 @@ background-image:url(../images/fond.jpg);
 background-image:url(../images/header.png);
 background-repeat:no-repeat;
 height:277px;
+border-radius:25px 25px 0px 0px;
 }
 
 #portal-logo-theme{
@@ -36,12 +38,51 @@ margin-top:10px;
 }
 
 #portal-siteactions-theme{
-float:left;
+position:relative;
+top:8px;
+left:180px;
+}
+
+#portal-siteactions-theme {
+position: relative;
+left: 180px;
+top: 8px;
+width: 469px;
+/*border: 1px solid rgba(200,200,200,0.8);
+border-radius:5px;*/
+text-align:left;
+}
+
+#portal-siteactions-theme li{
+margin:0px 6px;
+}
+
+#portal-siteactions-theme a{
+color:#999;
+font-size:0.7em;
+}
+
+#portal-siteactions-theme a:hover{
+color:#eee;
 }
 
 
 #personal-tools-theme{
-float:right;
+position:relative;
+top:205px;
+right:10px;
+}
+
+#portal-personaltools {
+background-color:rgba(200,200,200,0.8);
+border-radius: 0.5em;
+float: right;
+font-size: 80%;
+padding: 0.25em 0.5em;
+position: relative;
+right: 0;
+top: 0;
+z-index: 3;
 }
 
 #left-column-theme{
