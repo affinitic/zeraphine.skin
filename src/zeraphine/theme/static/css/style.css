@@ -194,3 +194,52 @@ text-shadow:1px 1px 1px rgba(50,50,50,0.5);
 .ombre-photo{
 box-shadow:4px 3px 8px rgba(50,50,50,0.5);
 }
+
+/*** COLOPHON ***/
+section#colophon-theme{
+height:40px;
+padding-top:8px;
+text-align:center;
+font-size:9pt;
+color:#86000b;
+}
+
+/*** FOOTER ***/
+footer#footer-theme{
+width:940px;
+margin:auto;
+padding:4px 0px;
+background-color:rgba(100,100,100,0.5);
+border-radius:35px;
+}
+
+
+footer#footer-theme div#affinitic,
+footer#footer-theme div#plone{
+font-size:0.7em;
+color:#333;
+}
+
+footer#footer-theme div#affinitic{
+float:left;
+text-align:left;
+margin-left:15px;
+}
+
+footer#footer-theme div#plone{
+float:right;
+text-align:right;
+margin-right:15px;
+}
+
+footer#footer-theme div#affinitic a,
+footer#footer-theme div#plone a{
+color:#86000b;
+}
+
+footer#footer-theme div#affinitic a:hover,
+footer#footer-theme div#plone a:hover{
+color:#ffee99;
+}
+
+
