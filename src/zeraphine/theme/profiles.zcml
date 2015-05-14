@@ -5,7 +5,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="'zeraphine et tapioka artisanat'"
+      title="Theme Zéraphine"
       directory="profiles/default"
       description="Installs profile for 'zeraphine et tapioka artisanat'"
       provides="Products.GenericSetup.interfaces.EXTENSION"
