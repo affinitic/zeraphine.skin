@@ -117,6 +117,7 @@ border-radius:12px;
 aside#left-column-theme{
 padding-top:30px;
 background-color:rgba(82,77,76,0.6);
+border-radius:0px 0px 12px 12px;
 }
 
 aside#left-column-theme .portletNavigationTree,
