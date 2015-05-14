@@ -161,3 +161,22 @@ float:none;
 width:95%;
 margin:auto;
 }
+
+#content {
+background-color: rgba(198, 152, 179, 0.19);
+clear: both;
+font-size: 80%;
+line-height: 1.5em;
+margin: 1em 0.25em 2em;
+padding:1em;
+border-radius:12px;
+}
+
+#content h1.documentFirstHeading {
+font-family: 'Monsieur La Doulaise', cursive;
+font-size:3em;
+color:rgba(120, 22, 19, 1);
+margin-top: 0;
+border-bottom:1px dotted rgba(198, 152, 179, 1);
+text-shadow:1px 1px 1px rgba(50,50,50,0.5);
+}
